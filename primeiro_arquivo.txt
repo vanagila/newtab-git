@@ -1,0 +1,14 @@
+Github é uma plataforma para controle de versões, é possível criar e compartilhar projetos. Pode ser usado direto no prompt de comando preterido pelo usuário ou pelo seu programa GitHub Desktop.
+
+Existem comandos que precisam ser realizados para manter em sicronia o repositório que está no remoto(nuvem; apenas existente na conta do usuário no site github) e local(repositório na máquina do usuário).
+Alguns desses comandos são: 
+git clone (para clonar o repositório criado no remoto para a máquina do usuário);
+git status para verificar o status do projeto, como quais arquivos foram alterados/adicionados;
+git add "nome-do-arquivo.extensao" para salvar a alteração feita;
+git add . para salvar todas as alterações feitas em todos os arquivos;
+git commit -m "mensagem do commit" para mandar as alterações para o work tree.
+git push para mandar as alterações para o remoto;
+git pull para atualizar o repositório no local com o que está no remoto;
+git branch -b "nome-da-branch" para criar uma branch e ir pra ela;
+git checkout "nome-da-branch" para ir até a branch;
+git merge "nome-da-branch" para fazer o merge de uma branch na outra;
